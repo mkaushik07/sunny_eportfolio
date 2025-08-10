@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vishal Kaushik | Digital Marketer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Vishal Kaushik</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Vishal Kaushik</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./profile1.jpeg" alt="Vishal Kaushik profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Vishal Kaushik</h1>
+      <p class="section__text__p2">Digital Marketer | Meta Ads Specialist | Brand Growth Partner</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Sunny_CV.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/your-link-here'" />
+        <img src="./assets/instagram.png" alt="Instagram" class="icon" onclick="location.href='https://instagram.com/your-link-here'" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get to Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="text-container">
+        <p>
+  I'm Vishal Kaushik, a Digital Marketer dedicated to helping businesses grow smarter, not just louder. My journey began early through volunteering at NGOs and interning with Mahindra, experiences that deeply shaped my values around impact, clarity, and purpose. Today, I specialize in working with fitness studios, cafes, spiritual coaches, and local brands to create high-converting campaigns and build meaningful social media presences. I believe marketing is about more than just flashy ads — it’s about connecting with your audience through clear goals, bold creativity, and consistent effort that compounds over time.
+</p><br />
+<p>
+  I combine data-driven strategies with authentic storytelling to deliver campaigns that truly resonate and convert. By deeply understanding your customers’ needs and behaviors, I craft messages that build trust and engagement, while continually optimizing performance to maximize your return on investment. Beyond short-term wins, I focus on fostering lasting relationships and brand loyalty, because sustainable growth comes from meaningful connections. Outside of work, I draw inspiration from exploring new fitness trends, discovering local cafes, and engaging in spiritual practices, all of which fuel my creativity and help me bring fresh, innovative ideas to every project.
+</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <p class="section__text__p1">Browse My</p>
+    <h1 class="title">Freelance & Internship Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Gildedhub (Freelance)</h2>
+          <p>
+            Built ad strategies, optimized funnels, and improved brand reach for a community-focused business.
+          </p>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Numero.healer (Freelance)</h2>
+          <p>
+            Helped a spiritual coach scale with lead-gen campaigns and aligned messaging.
+          </p>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Gold’s Gym (Freelance)</h2>
+          <p>
+            Targeted local audience through location-based Meta Ads to drive memberships.
+          </p>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Koko Cafe & Salon (Freelance)</h2>
+          <p>
+            Managed footfall and engagement through weekend campaigns and beauty service promotions.
+          </p>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Younity.in (Internship)</h2>
+          <p>
+            Engaged the community, led initiatives, and earned recognition for decision-making and proactivity.
+          </p>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Sankalp Humara NGO</h2>
+          <p>
+            Volunteered to educate children and led awareness campaigns for media outreach.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">What I've Worked On</p>
+    <h1 class="title">Client Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Memories Cafe Campaign</h2>
+          <p>
+            Executed a 1-month weekend push using Meta event ads and engagement targeting.
+          </p>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Meta Ads Mastery Launch</h2>
+          <p>
+            Provided end-to-end ad setup and performance management during a high-intensity course launch week.
+          </p>
+        </div>
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title project-title">Gold’s Gym Local Outreach</h2>
+          <p>
+            Increased reach and leads through location-specific creatives and CTA optimization.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:vishal.kaushik4646@gmail.com">vishal.kaushik4646@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/phone.png" alt="Phone icon" class="icon contact-icon" />
+        <p><a href="tel:+917834965320">+91 78349 65320</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/your-link-here">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <!-- <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav> -->
+    <p>Helping Brands Grow Smarter. | © Vishal Kaushik</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
